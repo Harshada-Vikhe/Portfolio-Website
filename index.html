@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- navigaton -->
+ <nav>
+    <div class="container">
+      <div class="box">
+        <a href="#" class="logo_container">
+            <i class="fa-brands fa-stumbleupon"></i>
+        </a>
+      </div>
+      <input type="checkbox" id="toggle-menu">
+      <label for="toggle-menu" class="overlay"></label>
+      <div class="box slidebar">
+        <div class="tab_container">
+            <a href="#home" class="tab active">
+            <h2>Home</h2>
+            </a>
+            <a href="#education" class="tab">
+                <h2>Education</h2>
+            </a>
+            <a href="#certifications" class="tab">
+                    <h2>Certification</h2>
+             </a>
+            <a href="#about" class="tab">
+                <h2>about</h2>
+                </a>
+                <a href="#skills" class="tab">
+                    <h2>Skills</h2>
+                    </a>
+                    <a href="#contact" class="tab">
+                        <h2>Contact</h2>
+                        </a>
+        </div>
+        
+    </div>
+    <label for="toggle-menu" class="menu">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      
+    </div>
+</nav>
+
+<!-- Hero -->
+<div class="hero_container page_section" id="home">
+    <div class="container">
+        <div class="coloumn" data-aos="fade-up">
+            <h1 class="title">Hey there, I'm <span class="color_primary">Harshada Vikhe</span>- Developer</h1>
+            <p class="text_muted">
+                "Passionate Computer Engineer with a Flair for Web Development 💻 | Crafting Digital Dreams with Dedication and Innovation 🚀 | Let's Turn Ideas into Reality Together 🌟"
+
+            </p>
+            <div class="button_container">
+                <a href="#about" class="btn btn-primary">About Me</a>
+            </div>
+            <div class="social_handles_container">
+                
+                <a href="https://instagram.com/harshada_vikhe_patil?igshid=OGQ5ZDc2ODk2ZA==" class="social_icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/harshada-vikhe" class="social_icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Harshada-Vikhe" class="social_icon">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <div class="coloumn" data-aos="fade-right">
+            <div class="hero_image">
+                <img src="/images/self.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Education -->
+ <div class="education page_section" id="education" data-aos="flip-up">
+    <div class="container">
+        <h2 class="main_title">Education</h2>
+        <div class="education_card_wrapper">
+         <!-- card -->
+         <div class="education_card">
+            <div class="box left">
+                <h3 class="name">SPPU University</h3>
+                <p class="text_muted date">2018-2023</p>
+            </div>
+            <div class="box right">
+                <div class="line"></div>
+                <div class="course_n">Computer Engineering</div>
+                <p class="text_muted">8.09 cgpa
+
+                </p>
+                <a href="#" class="text_muted link_container">
+                    <span class="link_icon">
+                        <i class="fa-solid fa-link"></i>
+                    </span>
+                    <span class="code">link</span>
+                </a>
+            </div>
+         </div>
+
+         <div class="education_card">
+            <div class="box left">
+                <h3 class="name">PKVM LONI</h3>
+                <p class="text_muted date">2016-2018</p>
+            </div>
+            <div class="box right">
+                <div class="line"></div>
+                <div class="course_n">Higher Secondary Education</div>
+                <p class="text_muted">
+
+                </p>
+                <a href="#" class="text_muted link_container">
+                    <span class="link_icon">
+                        <i class="fa-solid fa-link"></i>
+                    </span>
+                    <span class="code">link</span>
+                </a>
+            </div>
+         </div>
+
+        </div>
+    </div>
+ </div>
+
+ <!-- certification -->
+ <div class="certifications page_section" id="certifications" data-aos="fade-up">
+    <div class="container">
+        <h2 class="main_title">Certification</h2>
+        <div class="certifications_card_container">
+            <div class="certifications_card active" data-aos="fade-right">
+                <div class="box icon_container">
+                    <i class="fa-solid fa-certificate"></i>
+                </div>
+                <div class="box text_muted">
+                    <a href="https://drive.google.com/file/d/1_BmPhoJvu9fxz4dvShXF9z4fFBo4Ji5V/view?usp=sharing"><div class="name">Internship</div></a>
+                    <p>Frontend Development</p>
+                </div>
+            </div>
+             
+            <div class="certifications_card" data-aos="fade-left">
+                <div class="box icon_container">
+                    <i class="fa-solid fa-certificate"></i>
+                </div>
+                <div class="box text_muted">
+                    <a href=https://drive.google.com/file/d/1iCgEqDlOq3nte0K7nNVx9zvN8wi6y-fG/view?usp=sharing><div class="name">CPP</div></a>
+                    <p>Udemy</p>
+                </div>
+            </div>
+
+            <div class="certifications_card" data-aos="fade-left">
+                <div class="box icon_container">
+                    <i class="fa-solid fa-certificate"></i>
+                </div>
+                <div class="box text_muted">
+                    <a href="https://drive.google.com/file/d/13sGUyI8Ca95gZhaqw2mfpuB6BXHa6yHC/view?usp=sharing"><div class="name">Foundations : Data,Data,Everywhere</div></a>
+                    <p>Google</p>
+                </div>
+            </div>
+
+            <div class="certifications_card" data-aos="fade-right">
+                <div class="box icon_container">
+                    <i class="fa-solid fa-certificate"></i>
+                </div>
+                <div class="box text_muted">
+                    <a href="https://drive.google.com/file/d/1zN88RgHAtuuj7mZsiCmLyP6hmGnQEo6e/view?usp=sharing"><div class="name">AWS Cloud Technical Essentials</div></a>
+                    <p>AWS</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+ </div>
+
+
+ <!-- About Section-->
+ <div class="about_container page_section" id="about" data-aos="zoom-in">
+    <div class="container">
+        <h2 class="main_title">About Me</h2>
+        <div class="wrapper">
+            <div class="about_me">
+                <div class="about_me-image">
+                    <img src="images/h3.jpeg" alt="">
+                </div>
+            </div>
+         <div class="about_content">
+            <div class="about_cards">
+                <article class="about_card" data-aos="fade-left">
+                    <i class="fa-solid fa-award about_icon"></i>
+                   <a href="https://drive.google.com/file/d/1_BmPhoJvu9fxz4dvShXF9z4fFBo4Ji5V/view?usp=sharing"><h5>Experience</h5></a> 
+                    <small>Internship </small>
+                </article>
+
+                <article class="about_card" data-aos="fade-left">
+                    <i class="fa-solid fa-diagram-project about_icon"></i>
+                    <a href=""><h5>Projects</h5></a>
+                    <small> </small>
+                </article>
+
+                <article class="about_card" data-aos="fade-left">
+                    <i class="fa-solid fa-envelope about_icon"></i>
+                    <h5>Resume</h5>
+                    <small> </small>
+                </article>
+            
+            </div>
+            <p>
+                "Computer Engineering Student | Web Developer Enthusiast 💻 | Internship Experience in Crafting Digital Magic 🌐 | Fluent in HTML, CSS, and JavaScript ✨ | Proficient in C, C++, and Java ⚙️ | Passionate about Bridging Creativity and Technology 🚀 | Turning Code into Creative Web Solutions 🚀 | Building Tomorrow's Digital World Today 🌟"
+            </p>
+            <a href="#contacts" class="btn btn-primary">Lets Talk</a>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- skills -->
+ <div class="skill_container page_section" id="skills" data-aos="flip-up">
+    <div class="container">
+        <h2 class="main_title">Skill</h2>
+        <div class="wrapper">
+            <div class="skill_box_container" data-aos="fade-left">
+                <div class="title">Interpersonal Skills</div>
+                <div class="box">
+                    <p class="text text_muted">Communication</p>
+                    <div class="progress_container">
+                        <div class="progress" style="width: 95%;"></div>
+                        
+                    </div>
+                    <p class="percentage">95%</p>
+                </div>
+
+                <div class="box">
+                    <p class="text text_muted">Leadership</p>
+                    <div class="progress_container">
+                        <div class="progress" style="width: 90%;"></div>
+                        
+                    </div>
+                    <p class="percentage">90%</p>
+                </div>
+
+                <div class="box">
+                    <p class="text text_muted">Creativity</p>
+                    <div class="progress_container">
+                        <div class="progress" style="width: 85%;"></div>
+                        
+                    </div>
+                    <p class="percentage">85%</p>
+                </div>
+            </div>
+
+            <div class="skill_box_container" data-aos="fade-left">
+                <div class="title">Tools</div>
+                <div class="box">
+                    <p class="text text_muted">C ,Cpp</p>
+                    <div class="progress_container">
+                        <div class="progress" style="width: 95%;"></div>
+                        
+                    </div>
+                    <p class="percentage">95%</p>
+                </div>
+
+                <div class="box">
+                    <p class="text text_muted">Html,css</p>
+                    <div class="progress_container">
+                        <div class="progress" style="width: 90%;"></div>
+                        
+                    </div>
+                    <p class="percentage">90%</p>
+                </div>
+
+                <div class="box">
+                    <p class="text text_muted">javaScript</p>
+                    <div class="progress_container">
+                        <div class="progress" style="width: 90%;"></div>
+                        
+                    </div>
+                    <p class="percentage">90%</p>
+                </div>
+
+                <div class="box">
+                    <p class="text text_muted">Java</p>
+                    <div class="progress_container">
+                        <div class="progress" style="width: 95%;"></div>
+                        
+                    </div>
+                    <p class="percentage">95%</p>
+                </div>
+
+                <div class="box">
+                    <p class="text text_muted">SQL</p>
+                    <div class="progress_container">
+                        <div class="progress" style="width: 90%;"></div>
+                        
+                    </div>
+                    <p class="percentage">90%</p>
+                </div>
+            </div>
+
+            <div class="skill_box_container"data-aos="fade-left">
+                <div class="title">Languages</div>
+                <div class="box">
+                    <p class="text text_muted">English</p>
+                    <div class="progress_container">
+                        <div class="progress" style="width: 90%;"></div>
+                        
+                    </div>
+                    <p class="percentage">90%</p>
+                </div>
+
+                <div class="box">
+                    <p class="text text_muted">Hindi</p>
+                    <div class="progress_container">
+                        <div class="progress" style="width: 95%;"></div>
+                       
+                    </div>
+                    <p class="percentage">95%</p>
+                </div>
+
+                <div class="box">
+                    <p class="text text_muted">Marathi</p>
+                    <div class="progress_container">
+                        <div class="progress" style="width: 100%;"></div>
+                        
+                    </div>
+                    <p class="percentage">100%</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+  </div>
+    
+  </div>
+   <!-- contact -->
+  <div class="contact_container" id="contact" data-aos="zoom-in">
+     <div class="container">
+        <h2 class="main_title">Contact Me</h2>
+        <div class="wrapper">
+            <div class="contact_options " >
+                <article class="contact_option" data-aos="fade-right">
+                    <i class="fa-solid fa-envelope contact_option-icon"></i>
+                    <h4>Email</h4>
+                    <h5 class="value">vikheharshada@gmail.com</h5>
+                    <a href="vikheharshada@gmail.com" target="_blank">Send a message</a>
+                </article>
+
+                <article class="contact_option" data-aos="fade-right">
+                    <i class="fa-solid fa-message contact_option-icon"></i>
+                    <h4>Message</h4>
+                    <h5 class="value">msg</h5>
+                    <a href="#" target="_blank">Send a message</a>
+                </article>
+
+                <article class="contact_option" data-aos="fade-right">
+                    <i class="fa-solid fa-phone contact_option-icon"></i>
+                    <h4>WhatsApp</h4>
+                    <h5 class="value">21233444</h5>
+                    <a href="#" target="_blank">Send a message</a>
+                </article>
+            </div>
+            <form action="">
+                <input type="text" name="name" placeholder="Your Full Name" required>
+                <input type="email" name="name" placeholder="Your Email" required>
+                <textarea name="message" id="" cols="30" rows="10" required></textarea>
+                 <button class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+     </div>
+   </div>
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+        <div class="tab_container">
+            <a href="#home" class="tab active">
+            <h2>Home</h2>
+            </a>
+            <a href="#education" class="tab">
+                <h2>Education</h2>
+            </a>
+            <a href="#certification" class="tab">
+                    <h2>Certification</h2>
+             </a>
+            <a href="#about" class="tab">
+                <h2>about</h2>
+                </a>
+                <a href="#skills" class="tab">
+                    <h2>Skills</h2>
+                </a>
+                    <a href="#contact" class="tab">
+                        <h2>Contact</h2>
+                    </a>
+        </div>
+                    <div class="bottom">
+                        copyright &copy; 2023.All rights reserved
+                    </div>
+        
+    </div>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        AOS.init({duration:1200,})
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
